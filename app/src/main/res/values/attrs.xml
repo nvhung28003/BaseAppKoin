@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="TypefaceTextView">
+        <attr name="fontSelect">
+            <enum name="boldTypeface" value="1" />
+            <enum name="normalTypeface" value="2" />
+            <enum name="lightTypeface" value="3" />
+            <enum name="regularTypeface" value="4" />
+            <enum name="mediumTypeface" value="5" />
+            <enum name="heavyTypeface" value="6" />
+        </attr>
+    </declare-styleable>
+    <declare-styleable name="TypeFaceRadioButton">
+        <attr name="fontSelectRadio">
+            <enum name="boldTypeface" value="1" />
+            <enum name="normalTypeface" value="2" />
+            <enum name="lightTypeface" value="3" />
+            <enum name="regularTypeface" value="4" />
+            <enum name="mediumTypeface" value="5" />
+            <enum name="heavyTypeface" value="6" />
+        </attr>
+    </declare-styleable>
+    <declare-styleable name="TypeFaceEditText">
+        <attr name="fontSelectEditText">
+            <enum name="boldTypeface" value="1" />
+            <enum name="normalTypeface" value="2" />
+            <enum name="lightTypeface" value="3" />
+            <enum name="regularTypeface" value="4" />
+            <enum name="mediumTypeface" value="5" />
+            <enum name="heavyTypeface" value="6" />
+        </attr>
+    </declare-styleable>
+    <declare-styleable name="CircularImageView">
+        <!-- BORDER -->
+        <attr name="civ_border" format="boolean" />
+        <attr name="civ_border_width" format="dimension" />
+        <attr name="civ_border_color" format="color" />
+        <attr name="civ_border_color_start" format="color" />
+        <attr name="civ_border_color_end" format="color" />
+        <attr name="civ_border_color_direction">
+            <flag name="left_to_right" value="1" />
+            <flag name="right_to_left" value="2" />
+            <flag name="top_to_bottom" value="3" />
+            <flag name="bottom_to_top" value="4" />
+        </attr>
+        <!-- CIRCLE COLOR -->
+        <attr name="civ_circle_color" format="color" />
+        <attr name="civ_circle_color_start" format="color" />
+        <attr name="civ_circle_color_end" format="color" />
+        <attr name="civ_circle_color_direction">
+            <flag name="left_to_right" value="1" />
+            <flag name="right_to_left" value="2" />
+            <flag name="top_to_bottom" value="3" />
+            <flag name="bottom_to_top" value="4" />
+        </attr>
+        <!-- SHADOW -->
+        <attr name="civ_shadow" format="boolean" />
+        <attr name="civ_shadow_color" format="color" />
+        <attr name="civ_shadow_radius" format="dimension" />
+        <attr name="civ_shadow_gravity">
+            <flag name="center" value="1" />
+            <flag name="top" value="2" />
+            <flag name="bottom" value="3" />
+            <flag name="start" value="4" />
+            <flag name="end" value="5" />
+        </attr>
+    </declare-styleable>
+    <declare-styleable name="TouchImageView">
+        <attr name="zoom_enabled" format="boolean" />
+    </declare-styleable>
+
+    <declare-styleable name="LoopingViewPager">
+        <attr name="isInfinite" format="boolean" />
+        <attr name="autoScroll" format="boolean" />
+        <attr name="wrap_content" format="boolean" />
+        <attr name="scrollInterval" format="integer" />
+        <attr name="viewpagerAspectRatio" format="float" />
+        <attr name="itemAspectRatio" format="float" />
+    </declare-styleable>
+
+    <declare-styleable name="CustomShapePagerIndicator">
+        <attr name="indicator_spacing" format="dimension" />
+    </declare-styleable>
+
+    <attr name="dotsColor" format="color" />
+    <attr name="selectedDotColor" format="color" />
+    <attr name="dotsStrokeColor" format="color" />
+    <attr name="dotsSize" format="dimension" />
+    <attr name="dotsWidthFactor" format="float" />
+    <attr name="dotsSpacing" format="dimension" />
+    <attr name="dotsCornerRadius" format="dimension" />
+    <attr name="dotsStrokeWidth" format="dimension" />
+    <attr name="stiffness" format="float" />
+    <attr name="dampingRatio" format="float" />
+    <attr name="progressMode" format="boolean" />
+    <attr name="dotsClickable" format="boolean" />
+
+    <declare-styleable name="DotsIndicator">
+        <attr name="dotsColor" />
+        <attr name="selectedDotColor" />
+        <attr name="dotsSize" />
+        <attr name="dotsWidthFactor" />
+        <attr name="dotsSpacing" />
+        <attr name="dotsCornerRadius" />
+        <attr name="progressMode" />
+        <attr name="dotsClickable" />
+        <attr name="dotsElevation" format="dimension" />
+    </declare-styleable>
+
+    <declare-styleable name="SpringDotsIndicator">
+        <attr name="dotsColor" />
+        <attr name="dotsSize" />
+        <attr name="dotsSpacing" />
+        <attr name="dotsCornerRadius" />
+        <attr name="dotsStrokeWidth" />
+        <attr name="dotsStrokeColor" />
+        <attr name="stiffness" />
+        <attr name="dampingRatio" />
+        <attr name="dotsClickable" />
+    </declare-styleable>
+
+    <declare-styleable name="WormDotsIndicator">
+        <attr name="dotsColor" />
+        <attr name="dotsSize" />
+        <attr name="dotsSpacing" />
+        <attr name="dotsCornerRadius" />
+        <attr name="dotsStrokeWidth" />
+        <attr name="dotsStrokeColor" />
+        <attr name="dotsClickable" />
+    </declare-styleable>
+
+    <declare-styleable name="DateTimePicker">
+        <attr name="wheel_item_text_size" format="dimension" />
+        <attr name="wheel_item_text_color" format="color" />
+        <attr name="wheel_selected_item_text_color" format="color" />
+        <attr name="wheel_font_path" format="string" />
+    </declare-styleable>
+
+    <declare-styleable name="ScrollViewWithMaxHeight">
+        <attr name="android:maxHeight" />
+    </declare-styleable>
+</resources>

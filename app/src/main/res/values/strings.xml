@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">BaseAppKoin</string>
+    <string name="network_error">network_error</string>
+</resources>
