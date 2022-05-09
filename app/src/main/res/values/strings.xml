@@ -1,4 +1,10 @@
 <resources>
     <string name="app_name">BaseAppKoin</string>
     <string name="network_error">network_error</string>
+    <string name="title_day">day</string>
+    <string name="title_hour">hour</string>
+    <string name="title_minute">minutes</string>
+    <string name="title_second">second</string>
+    <string name="title_year">year</string>
+    <string name="title_month">month</string>
 </resources>

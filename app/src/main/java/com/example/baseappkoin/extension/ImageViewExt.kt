@@ -24,58 +24,8 @@ fun ImageView.loadPhotoFullUrl(
     colorString?.let { background = ColorDrawable(Color.parseColor(it)) }
     GlideApp.with(context)
         .load(url)
-        .error(R.drawable.ic_avatar_default)
-        .placeholder(R.drawable.ic_avatar_default)
         .addListener(requestListener)
         .into(this)
         .clearOnDetach()
 }
 
-fun ImageView.loadPhotoUrlInfo(
-    url: String,
-    colorInt: Int? = null,
-    colorString: String? = null,
-    requestListener: RequestListener<Drawable>? = null
-) {
-    colorInt?.let { background = ColorDrawable(it) }
-    colorString?.let { background = ColorDrawable(Color.parseColor(it)) }
-    GlideApp.with(context)
-        .load(url)
-        .placeholder(R.drawable.ic_seseimite_default)
-        .error(R.drawable.ic_seseimite_default)
-        .addListener(requestListener)
-        .into(this)
-        .clearOnDetach()
-}
-fun ImageView.loadPhotoUrlAvatar(
-    url: String,
-    colorInt: Int? = null,
-    colorString: String? = null,
-    requestListener: RequestListener<Drawable>? = null
-) {
-    colorInt?.let { background = ColorDrawable(it) }
-    colorString?.let { background = ColorDrawable(Color.parseColor(it)) }
-    GlideApp.with(context)
-        .load(url)
-        .placeholder(R.drawable.ic_seseimite_default)
-        .error(R.drawable.ic_seseimite_default)
-        .addListener(requestListener)
-        .into(this)
-        .clearOnDetach()
-}
-fun ImageView.loadPhotoUriInfo(
-    uri: Uri?,
-    colorInt: Int? = null,
-    colorString: String? = null,
-    requestListener: RequestListener<Drawable>? = null
-) {
-    colorInt?.let { background = ColorDrawable(it) }
-    colorString?.let { background = ColorDrawable(Color.parseColor(it)) }
-    GlideApp.with(context)
-        .load(uri)
-        .placeholder(R.drawable.ic_seseimite_default)
-        .error(R.drawable.ic_seseimite_default)
-        .addListener(requestListener)
-        .into(this)
-        .clearOnDetach()
-}

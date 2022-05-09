@@ -12,6 +12,6 @@ val viewModelModule = module {
     viewModel { SplashViewModel(get()) }
     viewModel { PhotoViewModel(get()) }
     viewModel { NoticeViewModel(get()) }
-    viewModel { MyPageViewModel(get(), get(), get()) }
+    viewModel { MyPageViewModel(get()) }
 
 }

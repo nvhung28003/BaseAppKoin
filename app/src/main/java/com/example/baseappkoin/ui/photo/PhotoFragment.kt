@@ -17,7 +17,7 @@ class PhotoFragment : BaseFragment<FragmentPhotoBinding, MainActivity>() {
     ): FragmentPhotoBinding  = FragmentPhotoBinding.inflate(inflater)
 
     override fun setupView() {
-
+        showBottomNav(true)
     }
 
     override fun setupData() {

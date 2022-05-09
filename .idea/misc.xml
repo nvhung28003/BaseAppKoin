@@ -11,10 +11,27 @@
         <entry key="..\:/Users/HUNG/AndroidStudioProjects/BaseAppKoin/app/src/main/res/layout/fragment_web_view.xml" value="0.1" />
         <entry key="..\:/Users/HUNG/AndroidStudioProjects/BaseAppKoin/app/src/main/res/layout/item_alert_error.xml" value="0.20833333333333334" />
         <entry key="..\:/Users/HUNG/AndroidStudioProjects/BaseAppKoin/app/src/main/res/layout/spring_dot_layout.xml" value="0.20833333333333334" />
+        <entry key="..\:/Users/hungnv/AndroidStudioProjects/BaseAppKoin/app/src/main/res/drawable-v24/dot_background.xml" value="0.2485" />
+        <entry key="..\:/Users/hungnv/AndroidStudioProjects/BaseAppKoin/app/src/main/res/drawable-v24/ic_notice.xml" value="0.244" />
+        <entry key="..\:/Users/hungnv/AndroidStudioProjects/BaseAppKoin/app/src/main/res/drawable-v24/ic_tab_notice_selected.xml" value="0.244" />
+        <entry key="..\:/Users/hungnv/AndroidStudioProjects/BaseAppKoin/app/src/main/res/drawable/ic_page.xml" value="0.244" />
+        <entry key="..\:/Users/hungnv/AndroidStudioProjects/BaseAppKoin/app/src/main/res/drawable/ic_photo.xml" value="0.244" />
+        <entry key="..\:/Users/hungnv/AndroidStudioProjects/BaseAppKoin/app/src/main/res/drawable/ic_tab_notice_unselected.xml" value="0.244" />
+        <entry key="..\:/Users/hungnv/AndroidStudioProjects/BaseAppKoin/app/src/main/res/drawable/ic_tab_page_selected.xml" value="0.244" />
+        <entry key="..\:/Users/hungnv/AndroidStudioProjects/BaseAppKoin/app/src/main/res/drawable/ic_tab_photo_selected.xml" value="0.244" />
+        <entry key="..\:/Users/hungnv/AndroidStudioProjects/BaseAppKoin/app/src/main/res/drawable/spring_dot_background.xml" value="0.2485" />
+        <entry key="..\:/Users/hungnv/AndroidStudioProjects/BaseAppKoin/app/src/main/res/drawable/spring_dot_sroke_background.xml" value="0.2485" />
+        <entry key="..\:/Users/hungnv/AndroidStudioProjects/BaseAppKoin/app/src/main/res/layout/activity_main.xml" value="0.1421875" />
+        <entry key="..\:/Users/hungnv/AndroidStudioProjects/BaseAppKoin/app/src/main/res/layout/dot_layout.xml" value="0.23854166666666668" />
+        <entry key="..\:/Users/hungnv/AndroidStudioProjects/BaseAppKoin/app/src/main/res/layout/fragment_my_page.xml" value="0.23854166666666668" />
+        <entry key="..\:/Users/hungnv/AndroidStudioProjects/BaseAppKoin/app/src/main/res/layout/fragment_notice_list.xml" value="0.23854166666666668" />
+        <entry key="..\:/Users/hungnv/AndroidStudioProjects/BaseAppKoin/app/src/main/res/layout/fragment_web_view.xml" value="0.23854166666666668" />
+        <entry key="..\:/Users/hungnv/AndroidStudioProjects/BaseAppKoin/app/src/main/res/layout/spring_dot_layout.xml" value="0.23854166666666668" />
+        <entry key="..\:/Users/hungnv/AndroidStudioProjects/BaseAppKoin/app/src/main/res/menu/bottom_nav_menu.xml" value="0.32083333333333336" />
       </map>
     </option>
   </component>
-  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" project-jdk-name="11" project-jdk-type="JavaSDK">
     <output url="file://$PROJECT_DIR$/build/classes" />
   </component>
   <component name="ProjectType">

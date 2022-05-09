@@ -18,7 +18,7 @@ class MyPageFragment : BaseFragment<FragmentMyPageBinding, MainActivity>() {
     ): FragmentMyPageBinding = FragmentMyPageBinding.inflate(inflater)
 
     override fun setupView() {
-
+        showBottomNav(true)
     }
 
     override fun setupData() {

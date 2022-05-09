@@ -89,11 +89,7 @@ private fun deleteDir(dir: File?): Boolean {
         false
     }
 }
-fun Fragment.openChPlaySenseiMite() {
-    val intent = Intent(Intent.ACTION_VIEW)
-    intent.data = Uri.parse(URL_CH_PLAY_SENSEI_MITE)
-    activity!!.startActivity(intent)
-    }
+
 
 
 fun Fragment.requireAppContext(): Context = requireContext().applicationContext

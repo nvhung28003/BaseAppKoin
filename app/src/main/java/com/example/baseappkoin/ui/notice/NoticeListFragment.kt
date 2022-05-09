@@ -21,7 +21,7 @@ class NoticeListFragment : BaseFragment<FragmentNoticeListBinding, MainActivity>
     ): FragmentNoticeListBinding = FragmentNoticeListBinding.inflate(inflater)
 
     override fun setupView() {
-
+        showBottomNav(true)
     }
 
     override fun setupData() {
